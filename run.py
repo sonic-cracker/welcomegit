@@ -1,3 +1,7 @@
+from fastapi import FastAPI
+import os
+
+app = FastAPI()
 import uvicorn
 
 if __name__ == "__main__":
